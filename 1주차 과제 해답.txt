@@ -1,0 +1,45 @@
+1주차 테스트 
+
+1-1)
+#include <iostream>
+
+using namespace std;
+
+int main(void)
+{
+	string str("Hello world");
+	cout << str.at(0) << endl;
+	cout << str.at(1) << endl;
+	cout << str.at(2) << endl;
+	cout << str.at(3) << endl;
+	cout << str.at(4) << endl;
+	cout << str.at(6) << endl;
+	cout << str.at(7) << endl;
+	cout << str.at(8) << endl;
+	cout << str.at(9) << endl;
+	cout << str.at(10) << endl;
+	cout << str << endl;
+
+	return 0;
+
+1-2) 
+#include <iostream>
+
+using namespace std;
+
+int main(void)
+{
+	int A;
+	printf("%d\n", A);  
+	cout << A;
+	return 0;
+
+값이 나온 이유 : 초기화 되지 않은 변수 A는 쓰레기 값이 들어가기 떄문에 출력되지 않는다.(오류발생)
+
+1-3)
+객체지향이란? 
+ : 어떠한 객체가 중심이 되어 해당 객체를 형성하는 각각이 무슨 역할을 하는지 정의해 나가는 것을 얘기한다.
+
+라디오를 만들떄 객체지향을 사용하는 것에 대한 차이점
+ : 객체지향을 사용하게 되면 라디오라는 장비를 구현하는데 필요한 객체들을 파악하고 각 객체의 역할이 
+   무엇인지 정의해서 상호작용을 통해 체계적으로 구현할 수 있다.
